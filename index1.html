@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Watson Composite Enrichment</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="og:title" content="Watson Composite Enrichment Demo"/>
+		<meta name="og:description" content="Add a cognitive search and content analytics engine to applications to identify patterns, trends and actionable insights that drive better decision-making."/>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/swamichandra/nodered-misc/master/css/watson-react-components.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/swamichandra/nodered-misc/master/css/wds-style.css" />
+	</head>
+	<body>
+		<section class="_full-width-row _full-width-row_gray jumbotron">
+			<div class="_container _container_large">
+				<div class="jumbotron--heading-section">
+					<h2 class="base--h2 jumbotron--header">Discovery</h2>
+					<p class="base--p jumbotron--description description">Add a cognitive search and content analytics engine to applications to identify patterns, trends and actionable insights that drive better decision-making.</p>
+				</div>
+			</div>
+		</section>
+		<div id="root">
+			<div>
+				<section class="_full-width-row query">
+					<div class="query--right-bg"></div>
+					<div class="row query--row _container _container_large">
+						<div class="query--left">
+							<div class="query--search-container">
+								<label for="textinput-115" class="text-input">
+									<input type="text" class="text-input--input base--input empty" style="width:100%;"
+												 placeholder="Enter the URL of the audio file you want to analyze" id="textinput-115"/>
+									<span class="text-input--dummy"></span>
+								</label>
+								<div class="query--icon-container">
+									<span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#ffffff" class="icon icon">
+											<path d="M12,1C5.9,1,1,5.9,1,12s4.9,11,11,11s11-4.9,11-11S18.1,1,12,1z M12,21c-5,0-9-4-9-9s4-9,9-9s9,4,9,9S17,21,12,21z M21,24 l3-3l7,7l-3,3L21,24z M21,20c0.6,0,1,0.4,1,1s-0.4,1-1,1s-1-0.4-1-1S20.4,20,21,20z"></path>
+										</svg>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div style="margin-top:0rem;">
+			<div>
+				<footer class="_full-width-row bottom-nav-bar">
+					<div class="_container _container_xx-large">
+						<div class="bottom-nav-bar--icon">
+							<span>
+								<svg
+									xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.9 28.4" fill="#fff" width="69.9" height="28.4" class="icon icon icon_large">
+									<path d="M43.4 7.6v1.9h10.1c-.2-.7-.3-1.1-.6-1.9M66.1 9.5V7.6h-9.5L56 9.5M54.1 11.4h-5s.5 1.5.6 1.9h5c.1-.1-.5-1.6-.6-1.9M59.8 13.2l.6-1.8h-5l-.6 1.8M51 17h7.5l.6-1.9h-8.8c.3.7.4 1.1.7 1.9M43.4 18.9h5.7v1.9h-5.7zM60.4 18.9h5.7v1.9h-5.7zM43.4 15.1h5.7V17h-5.7zM60.4 15.1h5.7V17h-5.7zM43.4 11.4h5.7v1.9h-5.7zM60.4 11.4h5.7v1.9h-5.7zM39.7 22.7h9.4v1.9h-9.4zM39.7 26.5h9.4v1.9h-9.4zM18.9 18.9h5.7v1.9h-5.7zM18.9 7.6h5.7v1.9h-5.7zM3.8 18.9h5.7v1.9H3.8zM3.8 15.1h5.7V17H3.8zM3.8 11.4h5.7v1.9H3.8zM3.8 7.6h5.7v1.9H3.8zM0 22.7h13.2v1.9H0zM0 26.5h13.2v1.9H0zM0 0h13.2v1.9H0zM0 3.8h13.2v1.9H0zM39.7 0v1.9H51c-.3-.8-.4-1.2-.6-1.9M39.7 3.8v1.9h12.6c-.3-.9-.3-1-.6-1.9M69.9 0H59.2l-.7 1.9h11.4M69.9 5.7V3.8h-12l-.6 1.9M60.4 22.7h9.4v1.9h-9.4zM60.4 26.5h9.4v1.9h-9.4zM54.8 28.4l.6-1.9h-1.3c.1.4.7 1.9.7 1.9M53.5 24.6H56l.6-1.9h-3.8c.3.9.5 1.3.7 1.9M52.2 20.8h5l.6-1.9h-6.3c.4 1 .4 1 .7 1.9M35.2 15.1H18.9V17h17.9c-.5-.7-1-1.3-1.6-1.9M30.2 20.8h7.5c0-.7-.1-1.3-.2-1.9h-7.3M15.1 24.6h21.6c.3-.6.6-1.2.8-1.9H15.1M15.1 28.4h15.1c1.9 0 3.7-.7 5-1.9H15.1M18.9 13.2h16.3c.6-.5 1.1-1.2 1.5-1.9H18.9M30.2 9.5h7.3c.2-.6.2-1.2.2-1.9h-7.5M15.1 0v1.9h20.1C33.9.7 32.1 0 30.2 0M15.1 5.7h22.4c-.2-.7-.4-1.3-.8-1.9H15.1"></path>
+								</svg>
+							</span>
+						</div>
+						<nav class="bottom-nav-bar--nav">
+							<ul class="bottom-nav-bar--nav-ul base--ul base--ul_inline base--ul_no-bullets">
+								<li class="bottom-nav-bar--nav-li base--li">
+									<a href="http://www.ibm.com/legal/us/en/" class="base--a bottom-nav-bar--nav-link" target="_blank" rel="noopener noreferrer">Terms</a>
+								</li>
+								<li class="bottom-nav-bar--nav-li base--li">
+									<a href="http://www.ibm.com/privacy/us/en/" class="base--a bottom-nav-bar--nav-link" target="_blank" rel="noopener noreferrer">Privacy</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
