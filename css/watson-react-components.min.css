@@ -1295,7 +1295,7 @@ pre[class*=language-]::selection {
 }
 .base--input,
 .base--select {
-    max-width: 30rem
+    max-width: 40rem
 }
 .base--input {
     border-width: 1px;
@@ -1303,8 +1303,8 @@ pre[class*=language-]::selection {
 }
 .base--input:focus,
 .base--input:hover {
-    border-width: 1px;
-    outline-width: 1px
+    border-width: 0px;
+    outline-width: 0px
 }
 .base--select {
     display: block;
